@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    /* Title -------------------------------------- */
+    .homepage_title {
+        @apply text-accentBlue font-sans text-5xl py-2
+         lg:text-8xl font-medium tracking-tight; 
+    }
+
+    .homepage_subtitle {
+        @apply text-black text-2xl font-sans
+        lg:text-[64px] font-medium tracking-tight;
+    }
+    /* Menu_Cards --------------------------------- */
+    .menu_section {
+        @apply flex flex-col items-center justify-center mt-10  
+    }
+    .menu_card {
+        @apply  shadow-lg 
+        aspect-square
+        min-h-[250px] max-h-[325px] 
+        min-w-[250px] max-w-[325px] 
+        flex justify-center
+    }
+    .menu_card-image {
+        @apply rounded-[10px]
+    }
+
+    .menu_card-title {
+        
+    }
+
+}
+
