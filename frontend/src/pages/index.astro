@@ -1,14 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import SocialLinks from '../components/SocialLinks.astro';
 import Title from '../components/Title.jsx';
 import Menu_Cards from '../components/Menu_Cards.jsx';
-
 ---
 
 <Layout title="Justin Manuel | Web Developer">
-	<section class="h-full w-full px-12 py-8">
-		<Title />	
-		<Menu_Cards />
+	<section class="h-full w-full px-12 py-8 lg:px-24 lg:py-8">
+		<Title client:load />	
+		<Menu_Cards client:load />
+		<SocialLinks />
 	</section>
 </Layout>
 

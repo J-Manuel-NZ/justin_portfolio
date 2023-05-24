@@ -1,5 +1,5 @@
 ---
-import './globalStyles.css';
+import "./globalStyles.css";
 export interface Props {
 	title: string;
 }
@@ -14,9 +14,11 @@ const { title } = Astro.props;
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
+		<script defer src="js/brands.js"></script>
 		<title>{title}</title>
 	</head>
 	<body>
-		<slot />		
+		<img class='logo' src='../../public/logo.png' alt='logo' width='auto' height='auto' />
+		<slot />
 	</body>
 </html>

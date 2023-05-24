@@ -4,5 +4,26 @@ body {
     margin: 0;
     padding: 0;
     border-style: border-box;
-    background-color: #E6EAE1;
+    background-color: #EAEAEA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+*svg {
+    fill: inherit;
+}
+.logo {
+    position:absolute;
+    z-index: -1;
+    top: 3rem;
+    right: 0rem;
+    width: 300px;
+    height: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 600px;
+    }
 }

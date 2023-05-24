@@ -8,7 +8,7 @@ module.exports = {
 			accentBlue: '#79AACD',
 			accentBlueLight: '#BCDAF0',
 			black: '#0C0B09',
-			white: '#E6EAE1',
+			white: '#EAEAEA',
 		},
 		fontFamily: {
 			sans: ['Poppins', 'sans-serif'],
