@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 @layer components {
+    /* HOMEPAGE STYLES */
     /* Title -------------------------------------- */
     .homepage_hero {
         @apply flex flex-col items-start justify-center
@@ -88,7 +89,37 @@
         @apply h-8 w-8 md:h-16 md:w-16 
     }
 
+    /* BIO PAGE STYLES */
+    /* Navbar --------------------------- */
+    .navbar {
+        @apply flex justify-between w-full
+    }
+    .navbar-title {
+       @apply text-accentOrangeLight
+        tracking-tight text-8xl font-semibold p-3
+    }
+    .navbar-links {
+        @apply flex items-center justify-center text-3xl gap-6 
+        text-accentOrangeLight font-medium tracking-tight
+    }
+    .inactive-page {
+        @apply cursor-pointer hover:-translate-y-1 hover:text-accentOrange transition-all
+    }
+    .navbar-links .contact_btn {
+        @apply mb-0
+    }
+    .active-page {
+        @apply text-accentOrange
+    }
+    /* NavMenu --------------------------- */
+    .navbar-menu {
+    }
 }
+
+
+
+
+/* ANIMATIONS */
 .delay-1 {
     -webkit-animation-delay: 3s;
             animation-delay: 3s;
