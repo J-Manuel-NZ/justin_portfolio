@@ -3,7 +3,7 @@ import './componentStyles.css'
 
 
 const Menu_Cards = () => {
-  const menuCards = [{timing: '1', title: 'port\nfolio.', image: "../../public/bg_portfolio.png", alt: 'code on a screen', link: '/portfolio'}, 
+  const menuCards = [{timing: '1', title: 'port\nfolio', image: "../../public/bg_portfolio.png", alt: 'code on a screen', link: '/portfolio'}, 
                      {timing: '2', title: 'bio.', image: '../../public/bg_bio.png', alt: 'Feet hanging over river', link: '/about'},
                      {timing: '3', title: 'inter\nests.', image: '../../public/bg_interests.png', alt: 'Justin playing guitar on stage', link: '/interests'}]
   return (
